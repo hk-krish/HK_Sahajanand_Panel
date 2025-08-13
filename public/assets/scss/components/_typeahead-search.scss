@@ -1,0 +1,142 @@
+/**=====================
+    2.35 typeahead-search CSS Start
+==========================**/
+.typeahead {
+  width: 100%;
+
+  * {
+    box-sizing: border-box;
+
+    &:before {
+      box-sizing: border-box;
+    }
+
+    &:after {
+      box-sizing: border-box;
+    }
+  }
+
+  .tt-hint {
+    display: none !important;
+  }
+}
+
+.u-cf {
+  &:before {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
+
+.u-posRelative {
+  position: relative;
+}
+
+
+.Profile-Card-avatar {
+  svg {
+    height: 18px;
+    vertical-align: bottom;
+
+    path {
+      color: #7e7c7c !important;
+    }
+
+    polygon {
+      color: #7e7c7c !important;
+    }
+  }
+}
+
+.typeahead-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 15px;
+  height: 227px;
+  overflow: auto;
+  z-index: 100; 
+  display: none;
+  width: 100%;
+  background-color: $white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.typeahead-menu.is-open {
+  display: block;
+}
+
+
+.Profile-Card {
+  position: relative;
+  padding: 10px;
+  border: 1px solid $gray-60 !important;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  &:hover {
+    .Profile-Card-avatar {
+      border-color: #f5f8fa;
+    }
+
+    color: #414345;
+    background: #f8f8f8;
+
+    .Profile-Card-screenName {
+      color: $white;
+    }
+
+    .Profile-Card-stat-label {
+      color: $white;
+    }
+  }
+}
+
+
+.Profile-Card-avatar {
+  position: absolute;
+  border-radius: 5px; 
+}
+
+.Profile-Card-details {
+  padding-left: 35px;
+  float: left;
+}
+
+.Profile-Card-realName {
+  display: inline-block;
+  color: $dark-gray;
+}
+
+.Profile-Card.is-active {
+  color: $white;
+  background: var(--theme-default);
+
+  .Profile-Card-screenName {
+    color: $white;
+  }
+
+  .Profile-Card-stat-label {
+    color: $white;
+  }
+}
+
+// typehead new search 
+$color_1: #333;
+$color_2: #fff;
+$color_3: #aaa;
+$background-color_1: #fff;
+$background-color_2: #444;
+$background-color_3: #333;
+$background-color_4: #eee;
+
+
+/**=====================
+  2.35 typeahead-search CSS Ends
+==========================**/

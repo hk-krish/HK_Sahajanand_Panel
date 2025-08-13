@@ -1,0 +1,48 @@
+{
+  "name": "sahajanand-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 5666",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@hookform/resolvers": "^5.1.1",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@types/js-cookie": "^3.0.6",
+    "antd": "^5.26.2",
+    "axios": "^1.10.0",
+    "bootstrap": "^5.3.6",
+    "dayjs": "^1.11.13",
+    "iconsax-react": "^0.0.8",
+    "js-cookie": "^3.0.5",
+    "next": "15.3.3",
+    "nextjs-toploader": "^3.8.16",
+    "react": "^19.0.0",
+    "react-bootstrap-typeahead": "^6.4.1",
+    "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.8",
+    "react-hook-form": "^7.58.1",
+    "react-quill-new": "^3.4.6",
+    "react-redux": "^9.2.0",
+    "react-select": "^5.10.1",
+    "react-simple-star-rating": "^5.1.7",
+    "react-toastify": "^11.0.5",
+    "reactstrap": "^9.2.3",
+    "swiper": "^11.2.8",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "sass": "1.77.6",
+    "typescript": "^5"
+  }
+}
